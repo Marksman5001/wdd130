@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georgia=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 div #content{
     max-width: 1600px;
     margin: 0 auto;
 
 
 }
-
+main section img{
+    box-sizing: border-box;
+}
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -30,6 +37,13 @@ main section{
 }
 body{
     background-color: #ccc;
+    font-family: Georgia;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #89E5FF;
@@ -42,6 +56,10 @@ nav a:hover{
     background-color: #ccc;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #89E5FF;
@@ -49,23 +67,32 @@ nav a:hover{
 }
 .msg{
     background-color: #ccc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #89E5FF;
     color: black;
-    
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #21A21F;
+    font-family: Garamond;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: black;
+    font-family: Garamond;
 }
 .msg p{
     color: #21A21F;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: black;
@@ -79,6 +106,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -88,4 +116,16 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo-link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
 }
