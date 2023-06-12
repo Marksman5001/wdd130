@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    max-width: 412px;
+    
+}
+main{
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+p{
+    margin: 25px;
+    grid-column: 1/4;
+    font-size: x-large;
+    height: 57%;
+    
+}
+img{
+    width: 100%;
+}
+.time{
+    color: #0091ef;
+    grid-column: 1/4;
+    
+}
+h2{
+    
+    grid-column: 1/4;
+    
+}
+
+footer{
+    background-color: #0091ef;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.box1{
+    grid-column: 1/2;
+}
+.box2{
+    grid-column: 2/3;
+}
+.box3{
+    grid-column: 3/4;
+}
