@@ -32,10 +32,10 @@ h2{
 }
 
 footer{
-    background-color: #0091ef;
+    background-color: #35558B;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    
+    color: white;
 }
 .box1{
     grid-column: 1/2;

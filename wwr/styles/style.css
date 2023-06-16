@@ -192,6 +192,34 @@ main .home-grid{
     opacity: .6;
     transform: scale(1.1);
 }
+.head{
+    text-align: center;
+}
+.childtitle{
+    text-align: center;
+}
+.river1 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.river2 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.river3 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.river1 img{
+    width: 100%;
+}
+.river2 img{
+    width: 100%;
+}
+.river3 img{
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
